@@ -15,6 +15,7 @@
 		7E56ECCD206493C3006B4EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E56ECCC206493C3006B4EEC /* main.m */; };
 		7E56ECD7206493C3006B4EEC /* __DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E56ECD6206493C3006B4EEC /* __DemoTests.m */; };
 		7E56ECE2206493C3006B4EEC /* __DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E56ECE1206493C3006B4EEC /* __DemoUITests.m */; };
+		7E56ECF02064CCB9006B4EEC /* citys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E56ECEF2064CCB9006B4EEC /* citys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7E56ECDD206493C3006B4EEC /* 排序DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E56ECE1206493C3006B4EEC /* __DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __DemoUITests.m; sourceTree = "<group>"; };
 		7E56ECE3206493C3006B4EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E56ECEF2064CCB9006B4EEC /* citys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		7E56ECBC206493C3006B4EEC /* 排序Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7E56ECEF2064CCB9006B4EEC /* citys.plist */,
 				7E56ECBD206493C3006B4EEC /* AppDelegate.h */,
 				7E56ECBE206493C3006B4EEC /* AppDelegate.m */,
 				7E56ECC0206493C3006B4EEC /* ViewController.h */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E56ECCA206493C3006B4EEC /* LaunchScreen.storyboard in Resources */,
+				7E56ECF02064CCB9006B4EEC /* citys.plist in Resources */,
 				7E56ECC7206493C3006B4EEC /* Assets.xcassets in Resources */,
 				7E56ECC5206493C3006B4EEC /* Main.storyboard in Resources */,
 			);
